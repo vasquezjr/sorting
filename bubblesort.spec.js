@@ -1,11 +1,13 @@
 describe('Bubble Sort', function(){
   
-//beforeAll(function () {
-  //spyOn('swap').and.callThrough(); // replace existing `tootsiepop['lick']` method
-//});
+beforeAll(function () {
+  spyOn(window, 'swap').and.callThrough(); // replace existing `tootsiepop['lick']` method
+});
+
 it('uses swap', function () {
   //tootsiepop.getToCenter();
-  expect(swap.calls.count.not.toBeLessThan(0);
+  bubbleSort([3, 2, 1]);
+  expect(window.swap.calls.count()).toEqual(3);
 });
 
 
