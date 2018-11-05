@@ -5,7 +5,7 @@ describe('Bubble Sort', function(){
 //});
 it('uses swap', function () {
   //tootsiepop.getToCenter();
-  expect(swap.calls.count()).not.toBeLessThan(0);
+  expect(swap.calls.count.not.toBeLessThan(0);
 });
 
 
